@@ -1,0 +1,134 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  #inicio {
+    background-color: grey;
+  }
+  
+  #proyectos {
+    background-color: #4caf50;
+  }
+  
+  #contacto {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .proyecto {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .proyecto h3, .proyecto h4, .proyecto h5, .proyecto h6 {
+    color: #4caf50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .proyecto p {
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  .proyecto a {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .proyecto a:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    
+    nav a {
+      font-size: 1rem;
+      padding: 0.3rem 0.7rem;
+    }
+    
+    section {
+      padding: 1rem;
+    }
+    
+    .proyecto {
+      padding: 0.5rem;
+    }
+    
+    footer p {
+      font-size: 0.7rem;
+    }
+    .nave img{
+        width: 100%;
+    }
+    element.style{
+        width: 100%;
+
+    }
+  }
