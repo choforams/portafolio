@@ -9,6 +9,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     background-color: #f0f0f0;
     color: #333;
   }
+  .ori{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .ori img{
+    width: 300px;
+
+  }
+  
   
   header {
     background-color: #222;
@@ -131,4 +141,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
         width: 100%;
 
     }
-  }
+    img{
+    width: 200px;
+    }
+    
+}
